@@ -12,10 +12,10 @@ SDL_Surface *ft_init(SDL_Window **window)
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 		ft_print_error("Error");
 
-	int flags = IMG_INIT_PNG;
-	if ( !( IMG_Init( flags ) & flags ) ) {
-		ft_print_error("Error");
-	}
+//	int flags = IMG_INIT_PNG;
+//	if ( !( IMG_Init( flags ) & flags ) ) {
+//		ft_print_error("Error");
+//	}
 
 	if (!(*window = SDL_CreateWindow("R4Y7r4c1N9_C4P031R4_CR3W",
 			SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
@@ -30,7 +30,7 @@ SDL_Surface *ft_init(SDL_Window **window)
 //	return 0;
 //}
 int ft_load(SDL_Surface **flower, SDL_Surface* screen) {
-	*flower= IMG_Load("/Users/iplastun/CLionProjects/RT/rt8.png");
+//	*flower= IMG_Load("/Users/iplastun/CLionProjects/RT/rt8.png");
 	*flower = SDL_ConvertSurface(*flower, screen->format, 0);
 	return 0;
 }
@@ -41,7 +41,7 @@ void	ft_quit(SDL_Surface* screen, SDL_Surface* flower, SDL_Window **window)
 	SDL_FreeSurface(screen);
 	SDL_DestroyWindow(*window);
 	SDL_Quit();
-	IMG_Quit();
+//	IMG_Quit();
 }
 
 int main(void)

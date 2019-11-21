@@ -18,7 +18,7 @@ LIBFT = libft/libft.a
 MAKE_LIBFT = make -C libft
 SDL2_FLAGS = -F SDL2 -framework SDL2
 SDL2_IMAGE = -F SDL2 -framework SDL2_image
-SOURCE = test.c
+SOURCE = tutorial.c
 OBJ = $(SOURCE:.c=.o)
 
 #all: make_libft $(NAME)

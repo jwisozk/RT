@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/iplastun/CLionProjects/RT/RT.h
+/Users/jwisozk/CLionProjects/RT/RT.h
 SDL2/SDL.h
 -
 SDL2/SDL2_image.framework/Headers/SDL_image.h
-/Users/iplastun/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
+/Users/jwisozk/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
 stdio.h
 -
 
-/Users/iplastun/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
+/Users/jwisozk/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
 SDL2/SDL.h
 -
 SDL2/SDL_version.h
@@ -24,7 +24,7 @@ SDL2/begin_code.h
 SDL2/close_code.h
 -
 
-/Users/iplastun/CLionProjects/RT/test.c
+/Users/jwisozk/CLionProjects/RT/tutorial.c
 RT.h
-/Users/iplastun/CLionProjects/RT/RT.h
+/Users/jwisozk/CLionProjects/RT/RT.h
 
