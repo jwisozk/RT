@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jwisozk <marvin@42.fr>                     +#+  +:+       +#+         #
+#    By: iplastun <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/09 13:59:01 by jwisozk           #+#    #+#              #
-#    Updated: 2019/10/13 15:17:32 by twill            ###   ########.fr        #
+#    Updated: 2019/11/20 18:39:51 by iplastun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ HEADER = rt.h
 LIBFT = libft/libft.a
 MAKE_LIBFT = make -C libft
 SDL2_FLAGS = -F SDL2 -framework SDL2
+SDL2_IMAGE = -F SDL2 -framework SDL2_image
 SOURCE = test.c
 OBJ = $(SOURCE:.c=.o)
 
@@ -26,7 +27,7 @@ all: $(NAME)
 #$(NAME): $(OBJ) $(LIBFT) $(LIBMLX)
 #	$(CC) $(CFLAGS) $^ $(LIBFT) $(LIBMLX) $(FRAMEWORKS) -o $(NAME)
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $^ -o $(NAME) $(SDL2_FLAGS)
+	$(CC) $(CFLAGS) $^ -o $(NAME) $(SDL2_FLAGS) $(SDL2_IMAGE)
 
 %.o: %.c $(HEADER)
 	$(CC) $(CFLAGS) -c $<

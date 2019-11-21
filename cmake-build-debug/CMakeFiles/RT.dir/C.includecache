@@ -9,6 +9,20 @@
 /Users/iplastun/CLionProjects/RT/RT.h
 SDL2/SDL.h
 -
+SDL2/SDL2_image.framework/Headers/SDL_image.h
+/Users/iplastun/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
+stdio.h
+-
+
+/Users/iplastun/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
+SDL2/SDL.h
+-
+SDL2/SDL_version.h
+-
+SDL2/begin_code.h
+-
+SDL2/close_code.h
+-
 
 /Users/iplastun/CLionProjects/RT/test.c
 RT.h

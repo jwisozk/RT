@@ -206,6 +206,21 @@ RT_SOURCE_DIR:STATIC=/Users/iplastun/CLionProjects/RT
 //Path to a library.
 SDL2:FILEPATH=/Users/iplastun/Library/Frameworks/SDL2.framework
 
+//Path to a library.
+SDL2-image:FILEPATH=/Users/iplastun/Library/Frameworks/SDL2.framework
+
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/local/lib/cmake/SDL2
+
+//Path to a file.
+SDL2_IMAGE_INCLUDE_DIR:PATH=/Users/iplastun/Library/Frameworks/SDL2_image.framework/Headers
+
+//Path to a file.
+SDL2_INCLUDE_DIR:PATH=/Users/iplastun/Library/Frameworks/SDL2.framework/Headers
+
+//Path to a library.
+SDL2_image:FILEPATH=/Users/iplastun/Library/Frameworks/SDL2.framework
+
 
 ########################
 # INTERNAL cache entries
