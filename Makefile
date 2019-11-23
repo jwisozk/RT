@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: iplastun <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: jwisozk <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/09 13:59:01 by jwisozk           #+#    #+#              #
-#    Updated: 2019/11/20 18:39:51 by iplastun         ###   ########.fr        #
+#    Updated: 2019/11/23 22:46:35 by jwisozk          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,9 @@ LIBFT = libft/libft.a
 MAKE_LIBFT = make -C libft
 SDL2_FLAGS = -F SDL2 -framework SDL2
 SDL2_IMAGE = -F SDL2 -framework SDL2_image
-SOURCE = tutorial.c
+SOURCE = src/main.c \
+         src/ft_sdl2_main.c \
+         src/sdl2/keys/ft_sdl2_key_quit.c
 OBJ = $(SOURCE:.c=.o)
 
 #all: make_libft $(NAME)

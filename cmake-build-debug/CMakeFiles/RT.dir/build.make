@@ -57,30 +57,60 @@ include CMakeFiles/RT.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RT.dir/flags.make
 
-CMakeFiles/RT.dir/tutorial.c.o: CMakeFiles/RT.dir/flags.make
-CMakeFiles/RT.dir/tutorial.c.o: ../tutorial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RT.dir/tutorial.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RT.dir/tutorial.c.o   -c /Users/jwisozk/CLionProjects/RT/tutorial.c
+CMakeFiles/RT.dir/src/main.c.o: CMakeFiles/RT.dir/flags.make
+CMakeFiles/RT.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RT.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RT.dir/src/main.c.o   -c /Users/jwisozk/CLionProjects/RT/src/main.c
 
-CMakeFiles/RT.dir/tutorial.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RT.dir/tutorial.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jwisozk/CLionProjects/RT/tutorial.c > CMakeFiles/RT.dir/tutorial.c.i
+CMakeFiles/RT.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RT.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jwisozk/CLionProjects/RT/src/main.c > CMakeFiles/RT.dir/src/main.c.i
 
-CMakeFiles/RT.dir/tutorial.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RT.dir/tutorial.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jwisozk/CLionProjects/RT/tutorial.c -o CMakeFiles/RT.dir/tutorial.c.s
+CMakeFiles/RT.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RT.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jwisozk/CLionProjects/RT/src/main.c -o CMakeFiles/RT.dir/src/main.c.s
+
+CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o: CMakeFiles/RT.dir/flags.make
+CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o: ../src/sdl2/ft_sdl2_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o   -c /Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c
+
+CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c > CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.i
+
+CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c -o CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.s
+
+CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o: CMakeFiles/RT.dir/flags.make
+CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o: ../src/sdl2/keys/ft_sdl2_key_quit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o   -c /Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c
+
+CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c > CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.i
+
+CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c -o CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.s
 
 # Object files for target RT
 RT_OBJECTS = \
-"CMakeFiles/RT.dir/tutorial.c.o"
+"CMakeFiles/RT.dir/src/main.c.o" \
+"CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o" \
+"CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o"
 
 # External object files for target RT
 RT_EXTERNAL_OBJECTS =
 
-RT: CMakeFiles/RT.dir/tutorial.c.o
+RT: CMakeFiles/RT.dir/src/main.c.o
+RT: CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o
+RT: CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o
 RT: CMakeFiles/RT.dir/build.make
 RT: CMakeFiles/RT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable RT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable RT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

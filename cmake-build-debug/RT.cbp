@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jwisozk/CLionProjects/RT/tutorial.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/main.c">
+			<Option target="RT"/>
+		</Unit>
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c">
+			<Option target="RT"/>
+		</Unit>
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c">
 			<Option target="RT"/>
 		</Unit>
 		<Unit filename="/Users/jwisozk/CLionProjects/RT/CMakeLists.txt">

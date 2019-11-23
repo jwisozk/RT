@@ -123,32 +123,86 @@ RT/fast:
 	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/build
 .PHONY : RT/fast
 
-tutorial.o: tutorial.c.o
+src/main.o: src/main.c.o
 
-.PHONY : tutorial.o
+.PHONY : src/main.o
 
 # target to build an object file
-tutorial.c.o:
-	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/tutorial.c.o
-.PHONY : tutorial.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-tutorial.i: tutorial.c.i
+src/main.i: src/main.c.i
 
-.PHONY : tutorial.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-tutorial.c.i:
-	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/tutorial.c.i
-.PHONY : tutorial.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-tutorial.s: tutorial.c.s
+src/main.s: src/main.c.s
 
-.PHONY : tutorial.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-tutorial.c.s:
-	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/tutorial.c.s
-.PHONY : tutorial.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/sdl2/ft_sdl2_main.o: src/sdl2/ft_sdl2_main.c.o
+
+.PHONY : src/sdl2/ft_sdl2_main.o
+
+# target to build an object file
+src/sdl2/ft_sdl2_main.c.o:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o
+.PHONY : src/sdl2/ft_sdl2_main.c.o
+
+src/sdl2/ft_sdl2_main.i: src/sdl2/ft_sdl2_main.c.i
+
+.PHONY : src/sdl2/ft_sdl2_main.i
+
+# target to preprocess a source file
+src/sdl2/ft_sdl2_main.c.i:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.i
+.PHONY : src/sdl2/ft_sdl2_main.c.i
+
+src/sdl2/ft_sdl2_main.s: src/sdl2/ft_sdl2_main.c.s
+
+.PHONY : src/sdl2/ft_sdl2_main.s
+
+# target to generate assembly for a file
+src/sdl2/ft_sdl2_main.c.s:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.s
+.PHONY : src/sdl2/ft_sdl2_main.c.s
+
+src/sdl2/keys/ft_sdl2_key_quit.o: src/sdl2/keys/ft_sdl2_key_quit.c.o
+
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.o
+
+# target to build an object file
+src/sdl2/keys/ft_sdl2_key_quit.c.o:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.c.o
+
+src/sdl2/keys/ft_sdl2_key_quit.i: src/sdl2/keys/ft_sdl2_key_quit.c.i
+
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.i
+
+# target to preprocess a source file
+src/sdl2/keys/ft_sdl2_key_quit.c.i:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.i
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.c.i
+
+src/sdl2/keys/ft_sdl2_key_quit.s: src/sdl2/keys/ft_sdl2_key_quit.c.s
+
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.s
+
+# target to generate assembly for a file
+src/sdl2/keys/ft_sdl2_key_quit.c.s:
+	$(MAKE) -f CMakeFiles/RT.dir/build.make CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.s
+.PHONY : src/sdl2/keys/ft_sdl2_key_quit.c.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RT"
-	@echo "... tutorial.o"
-	@echo "... tutorial.i"
-	@echo "... tutorial.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/sdl2/ft_sdl2_main.o"
+	@echo "... src/sdl2/ft_sdl2_main.i"
+	@echo "... src/sdl2/ft_sdl2_main.s"
+	@echo "... src/sdl2/keys/ft_sdl2_key_quit.o"
+	@echo "... src/sdl2/keys/ft_sdl2_key_quit.i"
+	@echo "... src/sdl2/keys/ft_sdl2_key_quit.s"
 .PHONY : help
 
 

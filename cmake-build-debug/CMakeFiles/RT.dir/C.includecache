@@ -9,22 +9,18 @@
 /Users/jwisozk/CLionProjects/RT/RT.h
 SDL2/SDL.h
 -
-SDL2/SDL2_image.framework/Headers/SDL_image.h
-/Users/jwisozk/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
 stdio.h
 -
 
-/Users/jwisozk/CLionProjects/RT/SDL2/SDL2_image.framework/Headers/SDL_image.h
-SDL2/SDL.h
--
-SDL2/SDL_version.h
--
-SDL2/begin_code.h
--
-SDL2/close_code.h
--
+/Users/jwisozk/CLionProjects/RT/src/main.c
+../RT.h
+/Users/jwisozk/CLionProjects/RT/RT.h
 
-/Users/jwisozk/CLionProjects/RT/tutorial.c
-RT.h
+/Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c
+../../RT.h
+/Users/jwisozk/CLionProjects/RT/RT.h
+
+/Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c
+../../../RT.h
 /Users/jwisozk/CLionProjects/RT/RT.h
 

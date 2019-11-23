@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RT.dir/tutorial.c.o"
+  "CMakeFiles/RT.dir/src/main.c.o"
+  "CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o"
+  "CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o"
   "RT.pdb"
   "RT"
 )

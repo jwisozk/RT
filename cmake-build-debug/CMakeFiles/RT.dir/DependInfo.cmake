@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jwisozk/CLionProjects/RT/tutorial.c" "/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles/RT.dir/tutorial.c.o"
+  "/Users/jwisozk/CLionProjects/RT/src/main.c" "/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles/RT.dir/src/main.c.o"
+  "/Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c" "/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles/RT.dir/src/sdl2/ft_sdl2_main.c.o"
+  "/Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c" "/Users/jwisozk/CLionProjects/RT/cmake-build-debug/CMakeFiles/RT.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
