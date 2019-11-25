@@ -17,7 +17,7 @@ HEADER = rt.h
 LIBFT = libft/libft.a
 MAKE_LIBFT = make -C libft
 SDL2_FLAGS = -F SDL2 -framework SDL2
-SDL2_IMAGE = -F SDL2 -framework SDL2_image
+# SDL2_IMAGE = -F SDL2 -framework SDL2_image
 SOURCE = src/main.c \
          src/ft_sdl2_main.c \
          src/sdl2/keys/ft_sdl2_key_quit.c
@@ -29,7 +29,7 @@ all: $(NAME)
 #$(NAME): $(OBJ) $(LIBFT) $(LIBMLX)
 #	$(CC) $(CFLAGS) $^ $(LIBFT) $(LIBMLX) $(FRAMEWORKS) -o $(NAME)
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $^ -o $(NAME) $(SDL2_FLAGS) $(SDL2_IMAGE)
+	$(CC) $(CFLAGS) $^ -o $(NAME) $(SDL2_FLAGS)
 
 %.o: %.c $(HEADER)
 	$(CC) $(CFLAGS) -c $<
