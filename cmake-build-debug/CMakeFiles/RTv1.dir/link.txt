@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/RTv1.dir/src/main.c.o CMakeFiles/RTv1.dir/src/sdl2/ft_sdl2_main.c.o CMakeFiles/RTv1.dir/src/sdl2/keys/ft_sdl2_key_quit.c.o  -o RTv1 
