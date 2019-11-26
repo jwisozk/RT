@@ -19,7 +19,7 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 //# include <SDL2/SDL.h>
-# include <SDL2/SDL.h>
+# include "../lib/SDL2/SDL2.framework/Headers/SDL.h"
 
 
 

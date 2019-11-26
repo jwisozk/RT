@@ -8,383 +8,385 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/iplastun/CLionProjects/RT/cmake-build-debug"/>
+				<Option working_dir="/Users/jwisozk/CLionProjects/RT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/iplastun/CLionProjects/RT/cmake-build-debug"/>
+				<Option working_dir="/Users/jwisozk/CLionProjects/RT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/iplastun/CLionProjects/RT/cmake-build-debug"/>
+				<Option working_dir="/Users/jwisozk/CLionProjects/RT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RT">
-				<Option output="/Users/iplastun/CLionProjects/RT/cmake-build-debug/RT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/iplastun/CLionProjects/RT/cmake-build-debug"/>
+				<Option output="/Users/jwisozk/CLionProjects/RT/cmake-build-debug/RT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jwisozk/CLionProjects/RT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 RT"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 RT"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RT/fast">
-				<Option output="/Users/iplastun/CLionProjects/RT/cmake-build-debug/RT" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/iplastun/CLionProjects/RT/cmake-build-debug"/>
+				<Option output="/Users/jwisozk/CLionProjects/RT/cmake-build-debug/RT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jwisozk/CLionProjects/RT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 RT/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/iplastun/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 RT/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jwisozk/CLionProjects/RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_atof.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_atof.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_atoi.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_atoi.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_atoi_base.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_atoi_base.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_bzero.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_bzero.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_clean.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_clean.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_del.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_del.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_free_all.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_free_all.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_gc.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_gc.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_gc.h">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_gc.h">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isalnum.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isalnum.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isalpha.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isalpha.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isascii.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isascii.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isdigit.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isdigit.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isprint.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isprint.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_isspace.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_isspace.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_itoa.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_itoa.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstadd.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstadd.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstadd_back.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstadd_back.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstdel.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstdel.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstdelone.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstdelone.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstiter.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstiter.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstmap.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstmap.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_lstnew.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_lstnew.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_malloc.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_malloc.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memalloc.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memalloc.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memccpy.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memccpy.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memchr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memchr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memcmp.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memcmp.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memcpy.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memcpy.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memdel.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memdel.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memmove.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memmove.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_memset.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_memset.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_print.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_print.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putchar.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putchar.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putchar_fd.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putendl.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putendl.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putendl_fd.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putnbr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putnbr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putnbr_fd.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putstr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putstr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_putstr_fd.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strcat.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strcat.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strchr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strchr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strclr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strclr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strcmp.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strcmp.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strcpy.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strcpy.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strdel.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strdel.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strdup.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strdup.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strequ.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strequ.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_striter.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_striter.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_striteri.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_striteri.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strjoin.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strjoin.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strlcat.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strlcat.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strlen.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strlen.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strmap.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strmap.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strmapi.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strmapi.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strncat.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strncat.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strncmp.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strncmp.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strncpy.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strncpy.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strnequ.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strnequ.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strnew.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strnew.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strnstr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strnstr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strrchr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strrchr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strrev.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strrev.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strsplit.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strsplit.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strstr.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strstr.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strsub.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strsub.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_strtrim.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_strtrim.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_tolower.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_tolower.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/ft_toupper.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/ft_toupper.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/get_next_line.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/get_next_line.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/lib/libft/libft.h">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/lib/libft/libft.h">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/RT.h">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/RT.h">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/RTv1.h">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/RTv1.h">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/camera.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/camera.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/camera_create.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/camera_create.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/camera_update.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/camera_update.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/camera_validate.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/camera_validate.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/color.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/color.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/draw.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/draw.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/etc_1.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/etc_1.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/etc_2.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/etc_2.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/geometric_create.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/geometric_create.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/light_create.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/light_create.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/light_update.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/light_update.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/light_validate.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/light_validate.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/lighting.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/lighting.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/main.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/main.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_calculate.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_calculate.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_create.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_create.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_fill.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_fill.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_intersect.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_intersect.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_update.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_update.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_update_min.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_update_min.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/objects_validate.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/objects_validate.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/operations_d.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/operations_d.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/operations_v.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/operations_v.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/scene_extra.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/scene_extra.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/scene_get.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/scene_get.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/sdl2/ft_sdl2_main.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/sdl2/ft_sdl2_main.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/sdl2/keys/ft_sdl2_key_quit.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/src/transform.c">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/src/transform.c">
 			<Option target="RT"/>
 		</Unit>
-		<Unit filename="/Users/iplastun/CLionProjects/RT/CMakeLists.txt">
+		<Unit filename="/Users/jwisozk/CLionProjects/RT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
