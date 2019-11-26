@@ -37,14 +37,14 @@ void    ft_sdl2_loop(t_sdl *sdl)
 
 void    ft_sdl2_init(t_sdl *sdl)
 {
-	sdl->pitch = SCREEN_WIDTH * 4;
+	sdl->pitch = DW * 4;
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 		ft_print((char*)SDL_GetError());
-	if (!(sdl->win = SDL_CreateWindow(TITLE_WINDOW, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_ALLOW_HIGHDPI)))
+	if (!(sdl->win = SDL_CreateWindow(TITLE_WINDOW, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, DW, DH, SDL_WINDOW_ALLOW_HIGHDPI)))
 		ft_print((char*)SDL_GetError());
 	if (!(sdl->ren = SDL_CreateRenderer(sdl->win, -1, 0)))
 		ft_print((char*)SDL_GetError());
-	if (!(sdl->tex = SDL_CreateTexture(sdl->ren, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, SCREEN_WIDTH, SCREEN_HEIGHT)))
+	if (!(sdl->tex = SDL_CreateTexture(sdl->ren, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, DW, DH)))
 		ft_print((char*)SDL_GetError());
 }
 

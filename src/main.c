@@ -23,7 +23,7 @@ void				ft_init_shapes(t_data *data)
 	data->l = NULL;
 	data->cam = NULL;
 	data->pass = NULL;
-	data->sdl.pixels = (int*)malloc(sizeof(int) * SCREEN_SIZE);
+	data->sdl.pixels = (int*)malloc(sizeof(int) * DS);
 }
 
 void				ft_check_valid(t_data *data)

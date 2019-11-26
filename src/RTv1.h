@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   RTv1.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iplastun <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jwisozk <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 17:04:13 by jwisozk           #+#    #+#             */
-/*   Updated: 2019/11/25 23:39:24 by iplastun         ###   ########.fr       */
+/*   Updated: 2019/11/26 14:16:58 by jwisozk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,10 @@
 //# include <SDL2/SDL.h>
 # include "../lib/SDL2/SDL2.framework/Headers/SDL.h"
 
-
-
-# define SCREEN_WIDTH	    601
-# define SCREEN_HEIGHT      601
-# define SCREEN_SIZE        (SCREEN_WIDTH * SCREEN_HEIGHT)
 # define TITLE_WINDOW       "R4Y7r4c1N9_C4P031R4_CR3W"
 # define DW				601
 # define DH				601
+# define DS             (DW * DH)
 # define EXTENSION		".cfg"
 # define VW				1
 # define VH				1
